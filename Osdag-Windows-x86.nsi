@@ -1,3 +1,5 @@
+;NSIS script for Osdag (Open Steel Design and Graphics) installer
+;-----------------------------------------------------------------------
 !include EnvVarUpdate.nsh
 !include RefreshEnvironment.nsh
 !include MUI2.nsh
