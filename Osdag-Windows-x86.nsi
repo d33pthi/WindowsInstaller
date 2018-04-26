@@ -1,16 +1,48 @@
 ;NSIS script for Osdag (Open Steel Design and Graphics) installer
 ;-----------------------------------------------------------------------
-!include EnvVarUpdate.nsh
-!include RefreshEnvironment.nsh
-!include MUI2.nsh
-!include x64.nsh
+# Notes:
+	;This installer installs Miniconda2, wkhtmltopdf, python dependencies silently
+	;Then it installs Osdag in the system
+	;It also creates a desktop shortcut and a shortcut inside the Osdag installation folder
+	;
 
-;Unicode true
-Name "Osdag"
-OutFile "Osdag-Windows-x86.exe"
-InstallDirRegKey HKLM "Software\Osdag" ""
-BrandingText "Osdag Test Installer"
-InstallDir $DESKTOP\Osdag
+;-----------------------------------------------------------------------
+; Include scripts	
+
+	;Header file to update the path
+	!include EnvVarUpdate.nsh
+	
+	;Header file for refreshing the environment (and it is variables) before installing the python dependencies
+	!include RefreshEnvironment.nsh
+	
+	;NSIS Modern User Interface
+	!include MUI2.nsh
+	
+	;Set the environment variables
+	;!include x64.nsh
+
+
+;-----------------------------------------------------------------------
+;General Installer Settings
+	
+	;Properly display all languages (Installer will not work on Windows 95, 98 or ME!)
+	;Unicode true
+
+	;Declare name of installer file
+	Name "Osdag"
+	OutFile "Osdag-Windows-x86.exe"
+
+	;Default installation directory
+	InstallDir $DESKTOP\Osdag
+
+	;Get installation folder from registry if available
+	InstallDirRegKey HKLM "Software\Osdag" ""
+
+	;Add Osdag branding and remove NSIS, in the installer
+	BrandingText "Osdag Test Installer"
+
+;-----------------------------------------------------------------------
+;Declare Variables (User defined)
 RequestExecutionLevel admin
 
 Var Start_menu_folder
@@ -60,21 +92,28 @@ Var Start_menu_folder
 ;!insertmacro MUI_LANGUAGE "German"   
 !insertmacro REFRESH_ENVIRONMENT
 
+;-----------------------------------------------------------------------
+;User defined functions
+
 Function update_path_miniconda
+	
+	;This function adds the paths required by Miniconda2 to the Path variable
+	
 	${EnvVarUpdate} $0 "PATH" "P" "HKLM" "$PROGRAMFILES32\Miniconda2\Library\bin"
 	${EnvVarUpdate} $0 "PATH" "P" "HKLM" "$PROGRAMFILES32\Miniconda2\Scripts"
 	${EnvVarUpdate} $0 "PATH" "P" "HKLM" "$PROGRAMFILES32\Miniconda2"
 FunctionEnd
 
 Function update_path_wkhtmltopdf
+
+	;This function adds the paths required by wkhtmltopdf to the Path variable
+	
 	${EnvVarUpdate} $0 "PATH" "A" "HKLM" "$PROGRAMFILES32\wkhtmltopdf\bin"
 FunctionEnd
 
 Function create_config_file
 	
-	;Create osdag.config and osdag-installation.log files
-	;Set the location to copy files temporarily, if required
-	;StrCpy $TEMP_Osdag "$TEMP\Osdag"
+	;Create osdag.config file
 
 	;Create config file (with default path values)
 	
