@@ -207,13 +207,22 @@ Section "Osdag" SEC02
 SectionEnd
 
 Section "DeletingTemporaryFiles" SEC03
+	
+	;This section is for deleting all the files and folders which were copied temporarily to the $TEMP folder
+	
 	SetDetailsPrint both
 	DetailPrint "Deleting: temporary files"
 	SetDetailsPrint listonly
+	
+		;Delete the Miniconda2, wkhtmltopdf installation files
 		Delete "$TEMP\Miniconda2-latest-Windows-x86.exe"
 		Delete "$TEMP\wkhtmltox-0.12.4_msvc2015-win32.exe"
-		RMDir /r "$TEMP\dependencies\"	
+		
+		;Delete the dependencies folder
+		RMDir /r "$TEMP\dependencies\"
+		
 	SetDetailsPrint both
+	
 SectionEnd
 
 Section "Uninstall" 
