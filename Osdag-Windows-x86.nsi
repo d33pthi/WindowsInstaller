@@ -206,7 +206,7 @@ Section "Osdag" SEC02
 	SetDetailsPrint both
 SectionEnd
 
-Section "DeletingTempFiles" SEC03
+Section "DeletingTemporaryFiles" SEC03
 	SetDetailsPrint both
 	DetailPrint "Deleting: temporary files"
 	SetDetailsPrint listonly
