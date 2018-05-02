@@ -33,7 +33,7 @@
 	OutFile "Osdag-Windows-x86.exe"
 
 	;Default installation directory
-	InstallDir $DESKTOP\Osdag
+	InstallDir $DESKTOP\{Name}
 
 	;Get installation folder from registry if available
 	InstallDirRegKey HKLM "Software\Osdag" ""
@@ -150,11 +150,18 @@ Function create_osdag_launcher
 FunctionEnd
 
 Section "Dependencies" SEC01
+	
+	;This section installs Miniconda2, wkhtml_path and installs the python dependencies
+
 	SetDetailsPrint both
 	DetailPrint "Installing: Miniconda2"
 	SetDetailsPrint listonly
+	
+		;Copy the Miniconda2 installation file to $TEMP folder to install silently from there
 		SetOutPath $TEMP
 		File "Files\Miniconda2-latest-Windows-x86.exe"
+		
+		;This command silently installs
 		ExecWait "$TEMP\Miniconda2-latest-Windows-x86.exe /InstallationType=AllUsers /AddToPath=0 /RegisterPython=1 /S /D=$PROGRAMFILES32\Miniconda2" $0
 		Call update_path_miniconda	
 	SetDetailsPrint both
@@ -190,7 +197,7 @@ Section "Osdag" SEC02
 		File /r "Files\Osdag\*.*"
 		
 		WriteRegStr HKLM "Software\Osdag" "" $INSTDIR
-		WriteUninstaller "$INSTDIR\Uninstall Osdag.exe"
+		WriteUninstaller "$INSTDIR\Uninstall-{Name}.exe"
 		
 		Call create_config_file
 		Call create_osdag_launcher
