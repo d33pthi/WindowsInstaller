@@ -33,7 +33,7 @@
 	OutFile "Osdag-Windows-x86.exe"
 
 	;Default installation directory
-	InstallDir $DESKTOP\{Name}
+	InstallDir $DESKTOP\${NAME}
 
 	;Get installation folder from registry if available
 	InstallDirRegKey HKLM "Software\Osdag" ""
@@ -197,7 +197,7 @@ Section "Osdag" SEC02
 		File /r "Files\Osdag\*.*"
 		
 		WriteRegStr HKLM "Software\Osdag" "" $INSTDIR
-		WriteUninstaller "$INSTDIR\Uninstall-{Name}.exe"
+		WriteUninstaller "$INSTDIR\Uninstall-${NAME}.exe"
 		
 		Call create_config_file
 		Call create_osdag_launcher
