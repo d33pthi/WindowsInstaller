@@ -154,7 +154,7 @@ Section "Dependencies" SEC01
 	;This section installs Miniconda2, wkhtml_path and installs the python dependencies
 
 	SetDetailsPrint both
-	DetailPrint "Installing: Miniconda2"
+	DetailPrint "Installing: Miniconda2 (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
 	
 		;Copy the Miniconda2 installation file to $TEMP folder to install silently from there
@@ -178,7 +178,7 @@ Section "Dependencies" SEC01
 	Call RefreshProcessEnvironmentPath
 	
 	SetDetailsPrint both
-	DetailPrint "Installing: Python dependencies (Please be patient as this might take a few minutes)"
+	DetailPrint "Installing: Python dependencies (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
 		SetOutPath $TEMP\dependencies
 		File /r "Files\dependencies\*.*"
