@@ -205,7 +205,7 @@ Section "Osdag" SEC02
 		!insertmacro MUI_STARTMENU_WRITE_BEGIN Application	
 		CreateDirectory "$SMPROGRAMS\$Start_menu_folder"	
 		CreateShortCut "$SMPROGRAMS\$Start_menu_folder\Osdag.lnk" "$INSTDIR\Osdag.bat" "" "$INSTDIR\ResourceFiles\images\Osdag Icon.ico" "" SW_SHOWMINIMIZED
-		CreateShortCut "$SMPROGRAMS\$Start_menu_folder\Uninstall.lnk" "$INSTDIR\Uninstall.exe"
+		CreateShortCut "$SMPROGRAMS\$Start_menu_folder\Uninstall-Osdag.lnk" "$INSTDIR\Uninstall-Osdag.exe"
 		!insertmacro MUI_STARTMENU_WRITE_END
 		
 		;Create Desktop shortcut	
