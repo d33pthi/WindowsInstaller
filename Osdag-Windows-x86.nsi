@@ -167,7 +167,7 @@ Section "Dependencies" SEC01
 	SetDetailsPrint both
 	
 	SetDetailsPrint both
-	DetailPrint "Installing: wkhtmltopdf"
+	DetailPrint "Installing: wkhtmltopdf (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
 		SetOutPath $TEMP
 		File "Files\wkhtmltox-0.12.4_msvc2015-win32.exe"
@@ -191,7 +191,7 @@ SectionEnd
 
 Section "Osdag" SEC02
 	SetDetailsPrint both
-	DetailPrint "Installing: Osdag"
+	DetailPrint "Installing: Osdag (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
 		SetOutPath $INSTDIR
 		File /r "Files\Osdag\*.*"
