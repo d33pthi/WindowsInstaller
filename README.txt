@@ -8,7 +8,7 @@ a) Supported Windows Operating Systems:
 	Windows 8.1
 	Windows 10
 
-b) Supported Architecture:
+b) Supported Architectures:
 	32-bit
 	64-bit
 
@@ -41,6 +41,6 @@ Once the installation is complete, you can run Osdag using any of the following 
 	b) Start menu shortcut.
 	c) Osdag shortcut in the Osdag installation directory.
 
-Note: 
-a) Please note that if you installed Osdag in a location where administrative privileges are required, you have to right click on any of the above shortcuts and "Run as administrator" to run Osdag.
-b) When running Osdag for the first time, it might take a few minutes (depending on your system) for Osdag to open.
+Note: Please note the following things.
+	a) If you installed Osdag in a location where administrative privileges are required, you have to right click on any of the above shortcuts and "Run as administrator" to run Osdag.
+	b) When running Osdag for the first time, it might take a few minutes (depending on your system) for Osdag to open.
