@@ -16,6 +16,7 @@ c) RAM and Storage Space:
 	2GB RAM recommended
 	4GB Storage Space recommended
 
+
 Installation Steps:
 ===================
 
@@ -32,6 +33,7 @@ Note: If you are already have Osdag installed on your system, please uninstall i
 4) The installer will now install Miniconda, wkhtmltopdf, python dependecies and Osdag in sequence (This step might take a few minutes depending on your system).
 
 5) Once the installation is done, you can click "Finish" to close the setup.
+
 
 Running Osdag:
 ==============
