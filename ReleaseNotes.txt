@@ -1,0 +1,16 @@
+What's New?:
+1. Fixed issues where certain inputs were crashing Osdag.
+2. Other improvements, bug fixes and fixed a few other crashes.
+
+Known Issues:
+1. 
+
+Features & changes:
+1. Moment connection design is now there on Osdag for the following modules:
+	a. Cover plate connection
+	b. Extened end plate connection
+2. You can now import the design preferences along with the input values from the osi file
+3. Shortcuts have been assigned for both "Reset" and "Design" buttons
+
+Improvements:
+1. 
