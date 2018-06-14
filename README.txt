@@ -36,7 +36,7 @@ Note: If you are already have Osdag installed on your system, please uninstall i
 Running Osdag:
 ==============
 
-Once the installation is complete, you can run Osdag by running any of the following shortcuts:
+Once the installation is complete, you can run Osdag using any of the following shortcuts:
 	a) Osdag desktop shortcut.
 	b) Start menu shortcut.
 	c) Osdag shortcut in the Osdag installation directory.
