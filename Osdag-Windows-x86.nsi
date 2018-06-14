@@ -161,15 +161,23 @@ Section "Dependencies" SEC01
 		SetOutPath $TEMP
 		File "Files\Miniconda2-latest-Windows-x86.exe"
 		
-		;This command silently installs
+		;This command silently installs Miniconda2
 		ExecWait "$TEMP\Miniconda2-latest-Windows-x86.exe /InstallationType=AllUsers /AddToPath=0 /RegisterPython=1 /S /D=$PROGRAMFILES32\Miniconda2" $0
 		Call update_path_miniconda	
 	SetDetailsPrint both
 	
 	;Install Microsoft Visual C++ Redistributable (x86) 2015
-	SetOutPath $TEMP
-	File "Files\vc_redist.x86.exe"
-	nsExec::ExecToLog "$TEMP\vc_redist.x86.exe /S"
+	SetDetailsPrint both
+	DetailPrint "Installing: Microsoft Visual C++ Redistributable (x86) 2015 (Please be patient as it might take a few minutes)"
+	SetDetailsPrint listonly
+	
+		;Copy the Microsoft Visual C++ Redistributable (x86) 2015 installation file to $TEMP folder to install silently from there
+		SetOutPath $TEMP
+		File "Files\vc_redist.x86.exe"
+		
+		;This command silently installs Microsoft Visual C++ Redistributable (x86) 2015
+		nsExec::ExecToLog "$TEMP\vc_redist.x86.exe /S"	
+	SetDetailsPrint both
 	
 	SetDetailsPrint both
 	DetailPrint "Installing: wkhtmltopdf (Please be patient as it might take a few minutes)"
