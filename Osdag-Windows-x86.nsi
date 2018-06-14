@@ -166,6 +166,11 @@ Section "Dependencies" SEC01
 		Call update_path_miniconda	
 	SetDetailsPrint both
 	
+	;Install Microsoft Visual C++ Redistributable (x86) 2015
+	SetOutPath $TEMP
+	File "Files\vc_redist.x86.exe"
+	nsExec::ExecToLog "$TEMP\wkhtmltox-0.12.4_msvc2015-win32.exe /S"
+	
 	SetDetailsPrint both
 	DetailPrint "Installing: wkhtmltopdf (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
@@ -221,9 +226,10 @@ Section "DeletingTemporaryFiles" SEC03
 	DetailPrint "Deleting: temporary files"
 	SetDetailsPrint listonly
 	
-		;Delete the Miniconda2, wkhtmltopdf installation files
+		;Delete the Miniconda2, wkhtmltopdf, Microsoft Visual C++ Redistributable (x86) 2015 installation files
 		Delete "$TEMP\Miniconda2-latest-Windows-x86.exe"
 		Delete "$TEMP\wkhtmltox-0.12.4_msvc2015-win32.exe"
+		Delete "$TEMP\vc_redist.x86.exe"
 		
 		;Delete the dependencies folder
 		RMDir /r "$TEMP\dependencies\"
