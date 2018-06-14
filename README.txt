@@ -20,7 +20,7 @@ Installation Steps:
 ===================
 
 Note: If you are already have Osdag installed on your system, please uninstall it before installing the latest version.
-	a) Go to the location where Osdag was installed and run "Uninstall.exe" and wait for Osdag to uninstall.
+	a) Go to the location where Osdag was installed and run "Uninstall.exe".
 	b) Go to "C:\Program Files (x86)" and delete the "Miniconda2" and "wkhtmltopdf" folders.
 
 1) Run "Osdag-Windows-x86.exe" and follow the on-screen instructions. (You need to give administrative privileges to install Osdag.)
