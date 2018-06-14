@@ -20,15 +20,16 @@ c) RAM and Storage Space:
 Installation Steps:
 ===================
 
-Note: If you are already have Osdag installed on your system, please uninstall it before installing the latest version.
+Note: If you already have an earlier version of Osdag installed on your system, please uninstall it before installing the latest version.
 	a) Go to the location where Osdag was installed and run "Uninstall.exe".
 	b) Go to "C:\Program Files (x86)" and delete the "Miniconda2" and "wkhtmltopdf" folders.
 
-1) Run "Osdag-Windows-x86.exe" and follow the on-screen instructions. (You need to give administrative privileges to install Osdag.)
+1) Run "Osdag-Windows-x86.exe" and follow the on-screen instructions. (You need to have administrative privileges to install Osdag.)
 
-2) In the "Choose Install Location" step, choose the location where you want to install Osdag and click "Next". (The default location is your Desktop. You can change that location but if you install Osdag in a location where administrative privileges are required, you will need adminstrative privileges to run Osdag every single time.)
+2) In the "Choose Install Location" step, choose the location where you want to install Osdag and click "Next". 
+Note: The default location is your Desktop. You can change that location but if you install Osdag in a location where administrative privileges are required, you will need adminstrative privileges to run Osdag every single time.
 
-3) You can choose to create a shortcut for Osdag in Start Menu folder and click "Next".
+3) You may choose to create a shortcut for Osdag in the Start Menu folder and click "Next".
 
 4) The installer will now install Miniconda, wkhtmltopdf, python dependecies and Osdag in sequence (This step might take a few minutes depending on your system).
 
@@ -38,11 +39,11 @@ Note: If you are already have Osdag installed on your system, please uninstall i
 Running Osdag:
 ==============
 
-Once the installation is complete, you can run Osdag using any of the following shortcuts:
-	a) Osdag desktop shortcut.
-	b) Start menu shortcut.
-	c) Osdag shortcut in the Osdag installation directory.
+Once the installation is complete, you can run Osdag using any of the following options:
+	a) Osdag desktop shortcut
+	b) Start menu shortcut
+	c) Osdag shortcut in the Osdag installation directory
 
 Note: Please note the following things.
-	a) If you installed Osdag in a location where administrative privileges are required, you have to right click on any of the above shortcuts and "Run as administrator" to run Osdag.
-	b) When running Osdag for the first time, it might take a few minutes (depending on your system) for Osdag to open.
+	a) When running Osdag for the first time, it might take a few minutes (depending on your system) for Osdag to open.
+	b) If you have installed Osdag in a location where administrative privileges are required, you have to right click on any of the above shortcuts and click "Run as administrator" to run Osdag.
