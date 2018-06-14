@@ -13,8 +13,8 @@ b) Supported Architectures:
 	64-bit
 
 c) RAM and Storage Space:
-	2GB RAM recommended
-	4GB Storage Space recommended
+	Minimum 2GB RAM recommended
+	Minimum 4GB Storage Space recommended
 
 
 Installation Steps:
@@ -44,6 +44,6 @@ Once the installation is complete, you can run Osdag using any of the following 
 	b) Start menu shortcut
 	c) Osdag shortcut in the Osdag installation directory
 
-Note: Please note the following things.
+Note: Please be mindful of the following things.
 	a) When running Osdag for the first time, it might take a few minutes (depending on your system) for Osdag to open.
 	b) If you have installed Osdag in a location where administrative privileges are required, you have to right click on any of the above shortcuts and click "Run as administrator" to run Osdag.
