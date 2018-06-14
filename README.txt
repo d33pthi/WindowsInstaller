@@ -23,9 +23,9 @@ Note: If you are already have Osdag installed on your system, please uninstall i
 	a) Go to the location where Osdag was installed and run "Uninstall.exe" and wait for Osdag to uninstall.
 	b) Go to "C:\Program Files (x86)" and delete the "Miniconda2" and "wkhtmltopdf" folders.
 
-1) Run "Osdag-Windows-x86.exe" and follow the on-screen instructions (You need to give administrative privileges to install Osdag).
+1) Run "Osdag-Windows-x86.exe" and follow the on-screen instructions. (You need to give administrative privileges to install Osdag.)
 
-2) In the "Choose Install Location" step, choose the location where you want to install Osdag and click "Next". The default location is your Desktop. You can change that location but if you install Osdag in a location where administrative privileges are required, you will need adminstrative privileges to run Osdag every single time.
+2) In the "Choose Install Location" step, choose the location where you want to install Osdag and click "Next". (The default location is your Desktop. You can change that location but if you install Osdag in a location where administrative privileges are required, you will need adminstrative privileges to run Osdag every single time.)
 
 3) You can choose to create a shortcut for Osdag in Start Menu folder and click "Next".
 
