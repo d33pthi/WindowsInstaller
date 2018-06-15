@@ -1,3 +1,4 @@
+
 System Requirements:
 ====================
 
@@ -15,16 +16,21 @@ b) Supported Architectures:
 c) RAM and Storage Space:
 	Minimum 2GB RAM recommended
 	Minimum 4GB Storage Space recommended
+	
+
+Uninstallating Earlier Version of Osdag:
+========================================
+
+1) Go to the location where Osdag was installed and run "Uninstall.exe".
+
+2) Go to "C:\Program Files (x86)" and delete the "Miniconda2" and "wkhtmltopdf" folders.
 
 
 Installation Steps:
 ===================
 
-Note: If you already have an earlier version of Osdag installed on your system, please uninstall it before installing the latest version.
-	a) Go to the location where Osdag was installed and run "Uninstall.exe".
-	b) Go to "C:\Program Files (x86)" and delete the "Miniconda2" and "wkhtmltopdf" folders.
-
 1) Run "Osdag-Windows-x86.exe" and follow the on-screen instructions. (You need to have administrative privileges to install Osdag.)
+Note: If you already have an earlier version of Osdag installed on your system, please uninstall it before installing the latest version. Please see above section for reference.
 
 2) In the "Choose Install Location" step, choose the location where you want to install Osdag and click "Next". 
 Note: The default location is your Desktop. You can change that location but if you install Osdag in a location where administrative privileges are required, you will need adminstrative privileges to run Osdag every single time.
