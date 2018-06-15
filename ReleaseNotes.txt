@@ -1,5 +1,6 @@
 What's New?:
-1. Fixed issues where certain inputs were crashing Osdag.
+1. Fixed issues where <certain inputs> were crashing Osdag. # talk to ajmal and danish
+3. Implemented some <checks> which were missing in the earlier version. # talk to ajmal and danish
 2. Other improvements, bug fixes and fixed a few other crashes.
 
 Known Issues:
