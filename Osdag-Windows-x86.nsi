@@ -60,7 +60,7 @@ Var Start_menu_folder
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME "Start Menu Folder"
 !define MUI_ICON "Files\osdag_logo.ico"
 !define MUI_UNICON "Files\osdag_logo.ico"
-!define MUI_WELCOMEPAGE_TEXT "This Setup will guide you through the installation of Osdag.$\r$\n$\r$\nIt will also install some python dependencies that are required to run Osdag$\r$\n $\r$\nPlease uninstall any earlier version of Osdag on your system before going ahead (See README.txt for reference)$\r$\n $\r$\nPlease click Next only after uninstalling the earlier version" 
+!define MUI_WELCOMEPAGE_TEXT "This Setup will guide you through the installation of Osdag$\r$\n$\r$\nIt will also install some python dependencies that are required to run Osdag$\r$\n $\r$\nPlease uninstall any earlier version of Osdag on your system before going ahead (See README.txt for reference)$\r$\n $\r$\nPlease click Next only after uninstalling the earlier version" 
 !insertmacro MUI_PAGE_WELCOME  
 !insertmacro MUI_PAGE_LICENSE "Files\License.txt"	
 ;!insertmacro MUI_PAGE_COMPONENTS # Uncomment when Miniconda setup is embedded
