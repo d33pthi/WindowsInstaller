@@ -1,17 +1,26 @@
+About this release:
+
+
 What's New?:
-1. Fixed issues where <certain inputs> were crashing Osdag. # talk to ajmal and danish
-3. Implemented some <checks> which were missing in the earlier version. # talk to ajmal and danish
-2. Other improvements, bug fixes and fixed a few other crashes.
-
-Known Issues:
-1. 
-
-Features & changes:
 1. Moment connection design is now there on Osdag for the following modules:
 	a. Cover plate connection
 	b. Extened end plate connection
 2. You can now import the design preferences along with the input values from the osi file
 3. Shortcuts have been assigned for both "Reset" and "Design" buttons
+4. Links to tutorials, questions, design examples added in Osdag.
+5. Fixed issues where <certain inputs> were crashing Osdag. # talk to ajmal and danish
+	a. when providing plate height before choosing beam <be1133dc7>
+	b. 
+6. Corrected some calculation and design which were missing in the earlier version. # talk to ajmal and danish
+	a. Max weld thickness <337e54c5772>
+	b. min and max height of endplate <ec4b1a4a6cc>
+	c. check for max. plate thickness <89acb908>
+	d. Unsafe design for any plate height <89acb908>
+	e. Corrections in calculation <fecaee8e>, <c246fa160>
+8. 2D Drawings
+9. HSFG renamed to Friction Grip Bolt? # ask sir if we should put this
+8. Other improvements, bug fixes and fixed a few other crashes.
 
-Improvements:
-1. 
+Known Bugs and Limitations:
+1. Osdag crashes
+2. Some bugs
