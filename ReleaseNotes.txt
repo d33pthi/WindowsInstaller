@@ -1,5 +1,5 @@
 About this release:
-Moment connection modules have been added to Osdag for the first time. Many bugs and crashes have been fixed. Some new features like <> have been added. Osdag is now much smoother.
+Moment connection modules have been added to Osdag for the first time. Many bugs and crashes have been fixed. Some new features like <> have been added. Osdag is now more efficient and much more smoother.
 
 
 What's New?:
