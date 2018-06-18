@@ -1,4 +1,5 @@
 About this release:
+Moment connection modules have been added to Osdag for the first time. Many bugs and crashes have been fixed. Some new features like <> have been added. Osdag is now much smoother.
 
 
 What's New?:
@@ -9,6 +10,7 @@ What's New?:
 3. Shortcuts have been assigned for both "Reset" and "Design" buttons
 4. Links to tutorials, questions, design examples added in Osdag.
 5. HSFG renamed to Friction Grip Bolt? # ask sir if we should put this
+
 
 Fixed issues:
 1. Fixed issues where <certain inputs> were crashing Osdag. # talk to ajmal and danish
@@ -23,9 +25,11 @@ Fixed issues:
 	f. Add 8.8 grade to bearing bolt list in end plate connection <d4e7f2a9>
 3. Other improvements, bug fixes and fixed a few other crashes.
 
+
 Known Bugs and Limitations:
-1. Osdag crashes
-2. Some bugs
+1. Write 2-3 situations where Osdag crashes # talk to ajmal and danish
+2. Mention 2-3 bugs # talk to ajmal and danish
+
 
 Installers:
-1. Osdag windows installer now completely revamped. It is a single click installer now.
+1. Osdag windows installer now completely revamped. It is very easy to install Osdag on windows with a few simple clicks.
