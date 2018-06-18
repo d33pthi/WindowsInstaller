@@ -1,17 +1,18 @@
-About this release:
+About this Release:
 Moment connection modules have been added to Osdag for the first time. Many bugs and crashes have been fixed. Some new features like <> have been added. The Windows installer has been revamped for easy installation. Osdag is now more efficient and much more smoother.
 
 
-What's New?:
+Major Features:
 1. Moment connection design is now there on Osdag for the following modules:
 	a. Cover plate connection (Beam-beam)
 	b. Extened end plate connection (Beam-beam)
 2. Windows installer (both 32bit and 64bit) has been completely revamped. It is very easy to install Osdag on windows with a few simple clicks.
-3. You can now import the design preferences along with the input values from the .osi file
-4. Links to tutorials, questions, design examples added in Osdag.
+3. You can now import the design preferences along with the input values from the .osi file.
+4. Some more questions have been added in the design examples. #talk to ajmal and danish
+5. New links to tutorials, forum added in Osdag.
 
 
-Major fixes:
+Major Fixes:
 1. Fixed issues where <certain inputs> were crashing Osdag. # talk to ajmal and danish
 	a. when providing plate height before choosing beam <be1133dc7>
 	b. 
