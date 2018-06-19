@@ -30,7 +30,9 @@ Installation Steps:
 ===================
 
 1) Run "Osdag-Windows-x86.exe" and follow the on-screen instructions. (You need to have administrative privileges to install Osdag.)
-Note: If you already have an earlier version of Osdag installed on your system, please uninstall it before installing the latest version. Please see above section for reference.
+Note: 
+	a) If you already have an earlier version of Osdag installed on your system, please uninstall it before installing the latest version. Please see above section for reference.
+	b) If you have problems installing the Osdag setup, try disabling the anti virus during the INSTALLATION. Once Osdag is installed, you can enable it back.
 
 2) In the "Choose Install Location" step, choose the location where you want to install Osdag and click "Next". 
 Note: The default location is your Desktop. You can change that location but if you install Osdag in a location where administrative privileges are required, you will need adminstrative privileges to run Osdag every single time.
