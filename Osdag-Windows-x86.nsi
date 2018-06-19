@@ -152,7 +152,7 @@ Section "Dependencies" SEC01
 	
 	;This section installs Miniconda2, wkhtml_path and installs the python dependencies
 
-	SetDetailsPrint both
+	SetDetailsPrint textonly
 	DetailPrint "Installing: Miniconda2 (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
 	
@@ -162,11 +162,11 @@ Section "Dependencies" SEC01
 		
 		;This command silently installs Miniconda2
 		ExecWait "$TEMP\Miniconda2-latest-Windows-x86.exe /InstallationType=AllUsers /AddToPath=0 /RegisterPython=1 /S /D=$PROGRAMFILES32\Miniconda2" $0
-		Call update_path_miniconda	
-	SetDetailsPrint both
+		Call update_path_miniconda
+	SetDetailsPrint both		
 	
 	;Install Microsoft Visual C++ Redistributable (x86) 2015
-	SetDetailsPrint both
+	SetDetailsPrint textonly
 	DetailPrint "Installing: Microsoft Visual C++ Redistributable (x86) 2015 (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
 	
@@ -177,8 +177,8 @@ Section "Dependencies" SEC01
 		;This command silently installs Microsoft Visual C++ Redistributable (x86) 2015
 		nsExec::ExecToLog "$TEMP\vc_redist.x86.exe /S"	
 	SetDetailsPrint both
-	
-	SetDetailsPrint both
+
+	SetDetailsPrint textonly
 	DetailPrint "Installing: wkhtmltopdf (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
 		SetOutPath $TEMP
@@ -189,7 +189,7 @@ Section "Dependencies" SEC01
 	
 	Call RefreshProcessEnvironmentPath
 	
-	SetDetailsPrint both
+	SetDetailsPrint textonly
 	DetailPrint "Installing: Python dependencies (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
 		SetOutPath $TEMP\dependencies
@@ -203,7 +203,7 @@ SectionEnd
 
 Section "Osdag" SEC02
 
-	SetDetailsPrint both
+	SetDetailsPrint textonly
 	DetailPrint "Installing: Osdag (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
 		SetOutPath $INSTDIR
@@ -230,7 +230,7 @@ Section "DeletingTemporaryFiles" SEC03
 	
 	;This section is for deleting all the files and folders which were copied temporarily to the $TEMP folder
 	
-	SetDetailsPrint both
+	SetDetailsPrint textonly
 	DetailPrint "Deleting: temporary files"
 	SetDetailsPrint listonly
 	
