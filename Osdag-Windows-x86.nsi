@@ -33,7 +33,7 @@
 	OutFile "Osdag-Windows-x86.exe"
 
 	;Default installation directory
-	InstallDir $DESKTOP\Osdag
+	InstallDir $EXEDIR\Osdag
 
 	;Get installation folder from registry if available
 	InstallDirRegKey HKLM "Software\Osdag" ""
@@ -65,7 +65,6 @@ Var Start_menu_folder
 !insertmacro MUI_PAGE_LICENSE "Files\License.txt"	
 ;!insertmacro MUI_PAGE_COMPONENTS # Uncomment when Miniconda setup is embedded
 !insertmacro MUI_PAGE_DIRECTORY
-
 ;Following lines of code are for selecting default Osdag_workspace location
 ;!define $Osdag_workspace "$DESKTOP\Osdag_workspace"
 ;!define MUI_PAGE_HEADER_SUBTEXT "Select the default location for Osdag workspace"
@@ -203,6 +202,7 @@ Section "Dependencies" SEC01
 SectionEnd
 
 Section "Osdag" SEC02
+
 	SetDetailsPrint both
 	DetailPrint "Installing: Osdag (Please be patient as it might take a few minutes)"
 	SetDetailsPrint listonly
