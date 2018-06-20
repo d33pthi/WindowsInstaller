@@ -14,8 +14,8 @@ Major Features:
 
 Major Fixes:
 1. Fixed issues where <certain inputs> were crashing Osdag. # talk to ajmal and danish
-	a. when providing plate height before choosing beam <be1133dc7>
-	b. 
+	a. Fixed the issue when providing plate height before choosing beam was crashing Osdag.
+	b. Fixed the issue when loading a .osi input file of a different module was crashing Osdag.
 2. Made few corrections and modifications to checks, calculations etc, in the design # talk to ajmal and danish
 	a. Max weld thickness <337e54c5772>
 	b. min and max height of endplate <ec4b1a4a6cc>
