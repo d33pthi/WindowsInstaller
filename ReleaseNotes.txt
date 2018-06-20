@@ -21,6 +21,6 @@ Major Fixes:
 	b. Minimum and maximum height of endplate checks are added. <ec4b1a4a6cc>
 	c. Maximum plate thickness check is added. <89acb908>
 	d. Unsafe design for any plate height <89acb908>
-	e. Some corrections / modifications in calculations. <fecaee8e>, <c246fa160>, <0a63d816e>, <106650139>
+	e. Some corrections / modifications are made in design calculations. <fecaee8e>, <c246fa160>, <0a63d816e>, <106650139>
 	f. Added 8.8 grade to bearing bolt list in end plate connection. <d4e7f2a9>
 3. There are some more known bugs and issues in Osdag which will be addressed in the future releases.
