@@ -17,10 +17,10 @@ Major Fixes:
 	a. Fixed the issue when providing plate height before choosing beam was crashing Osdag.
 	b. Fixed the issue when loading a .osi input file of a different module was crashing Osdag.
 2. Made few corrections and modifications to checks, calculations etc, in the design # talk to ajmal and danish
-	a. Max weld thickness <337e54c5772>
-	b. min and max height of endplate <ec4b1a4a6cc>
-	c. check for max. plate thickness <89acb908>
+	a. Maximum weld thickness check is added.
+	b. Minimum and maximum height of endplate checks are added. <ec4b1a4a6cc>
+	c. Maximum plate thickness check is added. <89acb908>
 	d. Unsafe design for any plate height <89acb908>
-	e. Corrections / modifications in calculation <fecaee8e>, <c246fa160>, <0a63d816e>, <106650139>
-	f. Add 8.8 grade to bearing bolt list in end plate connection <d4e7f2a9>
+	e. Some corrections / modifications in calculations. <fecaee8e>, <c246fa160>, <0a63d816e>, <106650139>
+	f. Added 8.8 grade to bearing bolt list in end plate connection. <d4e7f2a9>
 3. There are some more known bugs and issues in Osdag which will be addressed in the future releases.
