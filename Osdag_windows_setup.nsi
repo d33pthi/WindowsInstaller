@@ -286,7 +286,7 @@ SectionEnd
 Function .onInstSuccess
 
 	;Function that calls a messagebox when installation finished correctly
-	MessageBox MB_OK "You have successfully installed Osdag. Use the Desktop shortcut or the Start Menu shortcut to run Osdag.$\r$\n$\r$\nIf you face problems (program crashing or not opening) while trying to run Osdag, please see 'Important Notes' section of 'README.txt'.
+	MessageBox MB_OK "You have successfully installed Osdag. Use the Desktop shortcut or the Start Menu shortcut to run Osdag.$\r$\n$\r$\nIf you face problems (program crashing or not opening) while trying to run Osdag, please see 'Important Notes' section of 'README.txt'."
 	
 FunctionEnd
  
