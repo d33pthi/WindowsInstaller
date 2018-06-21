@@ -1,5 +1,5 @@
-About this Release:
-===================
+About this Release (Osdag version 2018.06.a.3839):
+==================================================
 
 Moment connection modules have been added to Osdag for the first time. Shear connection modules from the earlier version have also been revised. Many bugs and crashes have been fixed. Some new features have been added. The Windows installer has been revamped for easy installation. Osdag is now more efficient and much smoother.
 
