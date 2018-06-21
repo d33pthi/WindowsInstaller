@@ -28,7 +28,7 @@ Uninstalling Earlier Version of Osdag:
 Installation Steps:
 ===================
 
-1) Run "Osdag-Windows-x86.exe" and follow the on-screen instructions. (You need to have administrative privileges to install Osdag.)
+1) Run "Osdag_windows_setup.exe" and follow the on-screen instructions. (You need to have administrative privileges to install Osdag.)
 Note: 
 	a) If you already have an earlier version of Osdag installed on your system, please uninstall it before installing the latest version. Please see above section for reference.
 	b) If you have problems installing the Osdag setup, try disabling the anti virus during the INSTALLATION. Once Osdag is installed, you can enable it back.
