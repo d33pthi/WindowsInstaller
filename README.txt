@@ -35,7 +35,7 @@ Note:
 	b) If you have problems installing the Osdag setup, try disabling the anti virus during the INSTALLATION. Once Osdag is installed, you can enable it back.
 
 2) In the "Choose Install Location" step, choose the location where you want to install Osdag and click "Next". 
-Note: The default location is your Desktop. You can change that location but if you install Osdag in a location where administrative privileges are required, you will need adminstrative privileges to run Osdag every single time.
+Note: You can change the default location but if you install Osdag in a location where administrative privileges are required, you will need adminstrative privileges to run Osdag every single time.
 
 3) You may choose to create a shortcut for Osdag in the Start Menu folder and click "Next".
 
@@ -55,3 +55,4 @@ Once the installation is complete, you can run Osdag using any of the following 
 Note: Please be mindful of the following things.
 	a) When running Osdag for the first time, it might take a few minutes (depending on your system) for Osdag to open.
 	b) If you have installed Osdag in a location where administrative privileges are required, you have to right click on any of the above shortcuts and click "Run as administrator" to run Osdag.
+	c) If you are installing Osdag through a Windows account which is not an administrator, Osdag desktop and start menu shortcuts might not be created. You can copy the shortcut from the folder where you have installed Osdag and paste it where ever you like.
