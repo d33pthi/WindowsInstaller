@@ -1,21 +1,33 @@
 About this Release:
+===================
+
 Moment connection modules have been added to Osdag for the first time. Many bugs and crashes have been fixed. Some more new features have been added. The Windows installer has been revamped for easy installation. Osdag is now more efficient and much more smoother.
 
 
+
 Major Features:
+===============
+
 1. Moment connection design is now there on Osdag for the following modules:
 	a. Cover plate connection (Beam-beam)
 	b. Extened end plate connection (Beam-beam)
+
 2. Windows installer (both 32bit and 64bit) has been completely revamped. It is very easy to install Osdag on windows with a few simple clicks.
+
 3. Design preferences can now be imported along with the input values from the .osi file.
+
 4. More design examples have been added.
+
 5. New links to tutorials, forum have been added in Osdag.
 
 
 Major Fixes:
+============
+
 1. Fixed some issues which were crashing Osdag.
 	a. Fixed the issue where providing the plate height before choosing the beam section was crashing Osdag.
 	b. Fixed the issue where loading input from any file type other than the .osi file type was crashing Osdag.
+
 2. Made few corrections and modifications to checks, calculations etc, in design and detailing.
 	a. Maximum weld thickness check is added.
 	b. Minimum and maximum height of endplate checks are added.
@@ -23,4 +35,5 @@ Major Fixes:
 	d. Detailing, which was based on minimum pitch distance eariler is now based on minimum end distance.
 	e. Some corrections / modifications are made in design calculations.
 	f. 8.8 grade bolt has been added to the list of bearing bolts in the end plate connection.
+
 3. There are some more known bugs and issues in Osdag which will be addressed in the future releases.
