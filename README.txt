@@ -17,7 +17,7 @@ c) RAM and Storage Space:
 	Minimum 4GB Storage Space recommended
 	
 
-Uninstallating Earlier Version of Osdag:
+Uninstalling Earlier Version of Osdag:
 ========================================
 
 1) Go to the location where Osdag was installed and run "Uninstall.exe".
