@@ -22,5 +22,5 @@ Major Fixes:
 	c. Maximum plate thickness check is added.
 	d. Detailing, which was based on minimum pitch distance eariler is now based on minimum end distance.
 	e. Some corrections / modifications are made in design calculations.
-	f. Added 8.8 grade to the list of bearing bolts in the end plate connection.
+	f. 8.8 grade bolt has been added to the list of bearing bolts in the end plate connection.
 3. There are some more known bugs and issues in Osdag which will be addressed in the future releases.
