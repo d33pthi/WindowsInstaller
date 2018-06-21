@@ -39,7 +39,7 @@
 	InstallDirRegKey HKLM "Software\Osdag" ""
 
 	;Add Osdag branding and remove NSIS, in the installer
-	BrandingText "Osdag Windows Installer"
+	BrandingText "Osdag version 2018.06.a.3e2b"
 
 ;-----------------------------------------------------------------------
 ;Declare Variables (User defined)
@@ -210,7 +210,7 @@ Section "Osdag" SEC02
 		File /r "Files\Osdag\*.*"
 		
 		WriteRegStr HKLM "Software\Osdag" "" $INSTDIR
-		WriteUninstaller "$INSTDIR\Uninstall-Osdag.exe"
+		WriteUninstaller "$INSTDIR\Uninstall_Osdag.exe"
 		
 		Call create_config_file
 		Call create_osdag_launcher
