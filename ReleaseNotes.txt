@@ -13,9 +13,9 @@ Major Features:
 
 
 Major Fixes:
-1. Fixed issues where <certain inputs> were crashing Osdag.
-	a. Fixed the issue when providing the plate height before choosing the beam section was crashing Osdag.
-	b. Fixed the issue when loading input from any file type other than the .osi file type was crashing Osdag.
+1. Fixed some issues which were crashing Osdag.
+	a. Fixed the issue where providing the plate height before choosing the beam section was crashing Osdag.
+	b. Fixed the issue where loading input from any file type other than the .osi file type was crashing Osdag.
 2. Made few corrections and modifications to checks, calculations etc, in design and detailing.
 	a. Maximum weld thickness check is added.
 	b. Minimum and maximum height of endplate checks are added.
