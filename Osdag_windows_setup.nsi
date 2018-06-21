@@ -39,7 +39,7 @@
 	InstallDirRegKey HKLM "Software\Osdag" ""
 
 	;Add Osdag branding and remove NSIS, in the installer
-	BrandingText "Osdag version 2018.06.a.3e2b"
+	BrandingText "Osdag version 2018.06.a.3839"
 
 ;-----------------------------------------------------------------------
 ;Declare Variables (User defined)
