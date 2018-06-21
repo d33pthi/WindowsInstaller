@@ -7,9 +7,9 @@ Major Features:
 	a. Cover plate connection (Beam-beam)
 	b. Extened end plate connection (Beam-beam)
 2. Windows installer (both 32bit and 64bit) has been completely revamped. It is very easy to install Osdag on windows with a few simple clicks.
-3. You can now import the design preferences along with the input values from the .osi file.
+3. Design preferences can now be imported along with the input values from the .osi file.
 4. More design examples have been added.
-5. New links to tutorials, forum added in Osdag.
+5. New links to tutorials, forum have been added in Osdag.
 
 
 Major Fixes:
