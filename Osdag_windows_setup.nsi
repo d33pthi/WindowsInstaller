@@ -139,7 +139,7 @@ Function create_osdag_launcher
 	FileWrite $0 "$\r$\n@REM Please wait while Osdag is being initialized..."
 	FileWrite $0 "$\r$\n@REM Osdag will display python console output in this window."
 	FileWrite $0 "$\r$\n@echo off"
-	FileWrite $0 "$\r$\nstart pythonw osdagMainPage.py"
+	FileWrite $0 "$\r$\npython osdagMainPage.py"
 	FileWrite $0 "$\r$\n@REM Osdag was closed."
 	FileClose $0
 
