@@ -30,7 +30,7 @@
 
 	;Declare name of installer file
 	Name "Osdag"
-	OutFile "Osdag-Windows-x86.exe"
+	OutFile "Osdag_windows_setup.exe"
 
 	;Default installation directory
 	InstallDir $EXEDIR\Osdag
@@ -39,7 +39,7 @@
 	InstallDirRegKey HKLM "Software\Osdag" ""
 
 	;Add Osdag branding and remove NSIS, in the installer
-	BrandingText "Osdag Test Installer"
+	BrandingText "Osdag Windows Installer"
 
 ;-----------------------------------------------------------------------
 ;Declare Variables (User defined)
