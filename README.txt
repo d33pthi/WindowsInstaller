@@ -55,4 +55,4 @@ Once the installation is complete, you can run Osdag using any of the following 
 Note: Please be mindful of the following things.
 	a) When running Osdag for the first time, it might take a few minutes (depending on your system) for Osdag to open.
 	b) If you have installed Osdag in a location where administrative privileges are required, you have to right click on any of the above shortcuts and click "Run as administrator" to run Osdag.
-	c) If you are installing Osdag through a Windows account which not an administrator, Osdag desktop and start menu shortcuts might not be created. You can copy the shortcut from the folder where you have installed Osdag and paste it where ever you like.
+	c) If you are installing Osdag through a Windows account which is not an administrator, Osdag desktop and start menu shortcuts might not be created. You can copy the shortcut from the folder where you have installed Osdag and paste it where ever you like.
