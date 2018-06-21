@@ -51,7 +51,7 @@ Once the installation is complete, you can run Osdag using any of the following 
 	b) Start menu shortcut
 	c) Osdag shortcut in the Osdag installation directory
 
-Imporatant Notes:
+Important Notes:
 =================
 
 1) You need "Microsoft Visual C++ 2015 Redistributable (x86)" to run Osdag. (You need the 32bit x86 version even if you have 64bit Windows OS.)
