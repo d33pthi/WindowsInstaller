@@ -166,17 +166,17 @@ Section "Dependencies" SEC01
 	SetDetailsPrint both		
 	
 	;Install Microsoft Visual C++ Redistributable (x86) 2015
-	SetDetailsPrint textonly
-	DetailPrint "Installing: Microsoft Visual C++ Redistributable (x86) 2015 (Please be patient as it might take a few minutes)"
-	SetDetailsPrint listonly
+	;SetDetailsPrint textonly
+	;DetailPrint "Installing: Microsoft Visual C++ Redistributable (x86) 2015 (Please be patient as it might take a few minutes)"
+	;SetDetailsPrint listonly
 	
 		;Copy the Microsoft Visual C++ Redistributable (x86) 2015 installation file to $TEMP folder to install silently from there
-		SetOutPath $TEMP
-		File "Files\vc_redist.x86.exe"
+		;SetOutPath $TEMP
+		;File "Files\vc_redist.x86.exe"
 		
 		;This command silently installs Microsoft Visual C++ Redistributable (x86) 2015
-		nsExec::ExecToLog "$TEMP\vc_redist.x86.exe /S"	
-	SetDetailsPrint both
+		;nsExec::ExecToLog "$TEMP\vc_redist.x86.exe /S"	
+	;SetDetailsPrint both
 
 	SetDetailsPrint textonly
 	DetailPrint "Installing: wkhtmltopdf (Please be patient as it might take a few minutes)"

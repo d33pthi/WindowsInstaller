@@ -1,4 +1,3 @@
-
 System Requirements:
 ====================
 
@@ -52,7 +51,15 @@ Once the installation is complete, you can run Osdag using any of the following 
 	b) Start menu shortcut
 	c) Osdag shortcut in the Osdag installation directory
 
-Note: Please be mindful of the following things.
-	a) When running Osdag for the first time, it might take a few minutes (depending on your system) for Osdag to open.
-	b) If you have installed Osdag in a location where administrative privileges are required, you have to right click on any of the above shortcuts and click "Run as administrator" to run Osdag.
-	c) If you are installing Osdag through a Windows account which is not an administrator, Osdag desktop and start menu shortcuts might not be created. You can copy the shortcut from the folder where you have installed Osdag and paste it where ever you like.
+Imporatant Notes:
+=================
+
+1) You need "Microsoft Visual C++ 2015 Redistributable (x86)" to run Osdag. (You need the 32bit x86 version even if you have 64bit Windows OS.)
+	a) To check if you already have this installed, go to 'Control Panel -> Programs -> Programs and Features' and check in the list of programs.
+	b) If you don't have it installed, go to 'https://www.microsoft.com/en-in/download/details.aspx?id=48145', download 'vc_redist.x86.exe' and install it.
+
+2) When running Osdag for the first time, it might take a few minutes (depending on your system) for Osdag to open.
+
+3) If you have installed Osdag in a location where administrative privileges are required, you have to right click on any of the above shortcuts and click "Run as administrator" to run Osdag.
+
+4) If you are installing Osdag through a Windows account which is not an administrator, Osdag desktop and start menu shortcuts might not be created. You can copy the shortcut from the folder where you have installed Osdag and paste it where ever you like.
