@@ -1,6 +1,6 @@
 Windows Installer:
 ==================
-
+This installer installs Osdag (along with Miniconda and other dependecies required).
 
 
 System Requirements:
