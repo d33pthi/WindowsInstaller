@@ -31,7 +31,7 @@ Installation steps:
 # If you have already installed the  previous version of Osdag in your system then Unistall it first and just run the new downloaded Osdag_windows_setup.exe.
   Run Osdag_windows_setup.exe
     # Follow on-screen instructions AND select the following options in the Setup:
-	i)Just after starting the setup their is two options 1.Osdag and 2.Miktex, if you already have latex install in your system ,untick option 2.miktex and click next.
+	i)Just double click the osdag_windows_installer.exe to start the start the installation. 
 	ii)Click next, then install.
 	iii)Select the install location and click install.
 	iv)After process ends, click the finish botton.
